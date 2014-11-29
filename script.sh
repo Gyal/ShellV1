@@ -15,7 +15,7 @@ for i in $(find ./$directoryName -name '*f*');
 		echo $nameFile;
 
 done;
-echo "Les fichiers contenant plus de 20 lignes et d'on leurs noms contiennent un f sont :";
+echo "Les fichiers contenant plus de 20 lignes et dont leurs noms contiennent un f sont :";
 
 #Lance la boucle pour chaque ficher d'on le nom contient un f
 for i in $(find ./$directoryName -name '*f*');
